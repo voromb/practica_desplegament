@@ -7,6 +7,11 @@ function cambiarContenido() {
     p.textContent = '¡Contenido modificado por JavaScript!';
 }
 
-// Usuario 2
-
 // Usuario 3
+
+function cambiarEstilos() {
+    const p = document.getElementById('parrafoEstilo');
+    p.style.color = 'red';
+    p.style.fontWeight = 'bold';
+    p.style.backgroundColor = '#f0f0f0';
+}
